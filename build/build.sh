@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 CUR_DIR=$(cd $(dirname $0); pwd 2>/dev/null)
 
 #compile the java files
